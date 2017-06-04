@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^$', views.welcome),
     url(r'^index/$', views.index),
     url(r'^poem/$', views.poem),
+    url(r'^article/$', views.article),
 ]
