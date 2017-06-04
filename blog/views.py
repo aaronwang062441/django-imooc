@@ -17,3 +17,6 @@ def poem(request):
 
 def article(request):
     return HttpResponse(models.Article.objects.get(pk=1))
+
+def message(request):
+    return HttpResponse(models.Message.objects.get(pk=1))
