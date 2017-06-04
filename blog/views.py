@@ -12,4 +12,4 @@ def welcome(request):
     return HttpResponse("Welcome to my blog site!")
 
 def poem(request):
-    return render(request, "index.html", {'writer': 'By Django HttpResponse'})
+    return render(request, "blog/index.html", {'writer': 'By Django HttpResponse'})
